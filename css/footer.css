@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 16px 30px 16px;
+}
+
+footer > div#links > a {
+    display: block;
+    margin-bottom: 27px;
+    text-decoration: none;
+    font-size: var(--link-size);
+    font-weight: var(--link-weight);
+    color: var(--accent4);
+}
+
+footer > div#links > a:hover {
+    color: var(--accent5);
+    transition: color .6s;
+}
+
+footer > div#credits {
+    display: flex;
+    margin-top: 53px;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: var(--accent1);
+    font-family: var(--font-caption);
+    font-size: var(--caption-size);
+    font-weight: var(--caption-weight);
+}
+
+footer img {
+    width: 31.75px;
+}

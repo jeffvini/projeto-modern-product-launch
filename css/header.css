@@ -1,0 +1,43 @@
+header {
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    /* top-left: 10px
+       top-right: 20px
+       bottom-right: 30px
+       bottom-left: 40px */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+header> div#header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+header p#area {
+    line-height: 120%;
+    letter-spacing: -8%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+header button#menu-toggle {
+    margin: 3px;
+    width: 24px;
+    border: none;
+    height: 24px;
+    background-color: var(--background-color);
+    background-image: url('../assets/images/menu-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header button#menu-toggle:hover {
+    cursor: pointer;
+}
+
+header button#menu-toggle > img {
+    display: block;
+    width: 24px;
+    margin: auto;
+}

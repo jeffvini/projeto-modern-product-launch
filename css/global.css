@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+:root {
+    /* Colors */
+        /* Background */
+        --background: #FFFFFF;
+
+        /* Divider */
+        --divider: #E9E9E9;
+
+        /* Accents */
+        --accent1: #485C11;
+        --accent2: #DFECC6;
+        --accent3: #8E9C78;
+        --accent4: #000000;
+        --accent5: #6F6F6F;
+        --accent6: #929292;
+    
+    /* Fonts */
+        /* Font Families */
+        --font-heading: "Crimson Text", serif;
+        --font-paragraph-link: "DM Sans", sans-serif;
+        --font-caption: "Roboto Mono", monospace;
+
+        /* Font Weights*/
+        --display-weight: 400;
+        --heading1-weight: 400;
+        --heading2-weight: 400;
+        --heading3-weight: 400;
+        --paragraph-weight: 400;
+        --caption-weight: 400;
+        --link-weight: 700;
+
+        /* Font Sizes */
+        --display-size: 76px;
+        --heading1-size: 50px;
+        --heading2-size: 32px;
+        --heading3-size: 18px;
+        --paragraph-size: 15px;
+        --caption-size: 10.5px;
+        --link-size: 14px;
+
+        /* Line Height */
+        --line-height-display: 85%;
+        --line-height-heading1: 95%;
+        --line-height-heading2: 110%;
+        --line-height-caption: 140%;
+
+        /* Letter Spacing */
+        --letter-spacing-display: -4.5%;
+        --letter-spacing-heading1: -3%;
+        --letter-spacing-heading2: -4%;
+        --letter-spacing-caption: -3%;
+
+        @media screen and (min-width: 800px){
+        /* Font Sizes */
+        --display-size: 140px;
+        --heading1-size: 54px;
+        --heading2-size: 40px;
+        --caption-size: 11px;
+
+        /* Line Height */
+        --line-height-display: 80%;
+        --line-height-heading1: 90%;
+        --line-height-heading2: 110%;
+        --line-height-caption: 140%;
+
+        /* Letter Spacing */
+        --letter-spacing-display: -5%;
+        --letter-spacing-heading1: -3%;
+        --letter-spacing-heading2: -4%;
+        --letter-spacing-caption: -1%;
+        }
+
+        @media screen and (min-width: 1280px){
+        /* Font Sizes */
+        --display-size: 160px;
+        --heading1-size: 60px;
+        --heading2-size: 40px;
+        --caption-size: 12px;
+
+        /* Line Height */
+        --line-height-display: 85%;
+        --line-height-heading1: 90%;
+        --line-height-heading2: 105%;
+        --line-height-caption: 140%;
+
+        /* Letter Spacing */
+        --letter-spacing-display: -5%;
+        --letter-spacing-heading1: -3%;
+        --letter-spacing-heading2: -4%;
+        --letter-spacing-caption: -1%;
+        }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    background-color: var(--background);
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+    font-family: var(--font-paragraph-link);
+}

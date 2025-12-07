@@ -1,0 +1,16 @@
+# Sistema operacional
+.DS_Store          # Mac
+Thumbs.db          # Windows
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/           # Configurações do VS Code
+*.sublime-project
+*.sublime-workspace
+*.idea/            # JetBrains IDEs
+
+# Arquivos temporários
+*.tmp
+*.swp
