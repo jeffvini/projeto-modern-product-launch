@@ -11,11 +11,22 @@
 <body>
     <header>
         <div id="header-top">
-            <p id="area">Area</p>
-            <button id="menu-toggle" aria-label="Open navigation"></button>
+            <span id="area">Area</span>
+            <button id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu-items"></button>
         </div>
-        <nav></nav>
+        <nav id="mobile-menu-items" aria-label="Mobile menu">
+            <div class="separator" aria-hidden="true"></div>
+            <a href="#" class="anchor">Benefits</a>
+            <div class="separator" aria-hidden="true"></div>
+            <a href="#" class="anchor">Specifications</a>
+            <div class="separator" aria-hidden="true"></div>
+            <a href="#" class="anchor">How-to</a>
+            <div class="separator" aria-hidden="true"></div>
+            <a href="#" class="anchor">Contact Us</a>
+            <a href="#" class="learn-more"><span>Learn More</span> <img src="assets/images/arrow-icon.png" alt=""></a>
+        </nav>
     </header>
+
     <main>
         <section id="hero"></section>
         <section id="logo-cloud"></section>
@@ -27,17 +38,20 @@
         <section id="hero-image"></section>
         <section id="cta"></section>
     </main>
-    <footer>
-        <div id="links">
+
+    <footer role="contentinfo">
+        <nav id="links" aria-label="Footer menu navigation">
             <a href="#">Benefits</a>
             <a href="#">Specifications</a>
             <a href="#">How-to</a>
-        </div>
+        </nav>
         <div id="credits">
             <img src="assets/images/logo-icon.png" alt="Logo Icon">
             <p class="text-credits">© Area.   2025</p>
             <p class="text-credits">All Rights Reserved</p>
         </div>
     </footer>
+
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>

@@ -4,18 +4,19 @@ footer {
     padding: 40px 16px 30px 16px;
 }
 
-footer > div#links > a {
+footer > nav#links > a {
     display: block;
+    width: max-content;
     margin-bottom: 27px;
     text-decoration: none;
     font-size: var(--link-size);
     font-weight: var(--link-weight);
     color: var(--accent4);
+    transition: color .5s;
 }
 
-footer > div#links > a:hover {
+footer > nav#links > a:hover {
     color: var(--accent5);
-    transition: color .6s;
 }
 
 footer > div#credits {
@@ -23,12 +24,17 @@ footer > div#credits {
     margin-top: 53px;
     align-items: flex-end;
     justify-content: space-between;
+}
+
+footer > div#credits > img {
+    width: 31.75px;
+}
+
+footer > div#credits > p {
     color: var(--accent1);
     font-family: var(--font-caption);
     font-size: var(--caption-size);
     font-weight: var(--caption-weight);
-}
-
-footer img {
-    width: 31.75px;
+    line-height: var(--line-height-caption);
+    letter-spacing: var(--letter-spacing-caption);
 }
