@@ -109,3 +109,7 @@ body {
     min-height: 100dvh;
     font-family: var(--font-paragraph-link);
 }
+
+main {
+    margin-top: 80px;
+}
