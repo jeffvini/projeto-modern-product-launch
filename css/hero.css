@@ -1,0 +1,37 @@
+section.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.hero > h1.display {
+    font-family: var(--font-heading);
+    font-weight: var(--display-weight);
+    font-size: var(--display-size);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+    text-align: center;
+}
+
+section.hero > div.wrapper {
+    overflow-y: hidden;
+}
+
+section.hero > div.wrapper > div.inner {
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent3);
+    margin-top: 6.25rem;
+    height: 22.6rem;
+    min-width: 90vw;
+    border-radius: 1.87rem;
+}
+
+section.hero > div.wrapper > div.inner > img {
+    margin-top: -2.81rem;
+    width: 16rem;
+    height: 32.61rem;
+    border: solid 0.68rem black;
+    border-radius: 2.69rem;
+}
