@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>Modern Product Launch</title>
 </head>
 <body>
     <header>
-        <div id="header-top">
-            <span id="area">Area</span>
-            <button id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu-items"></button>
+        <div class="header-top">
+            <span class="area">Area</span>
+            <button class="menu-toggle" id="menu-toggle-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu-items"></button>
         </div>
-        <nav id="mobile-menu-items" aria-label="Mobile menu">
+        <nav class="dropdown" id="mobile-menu-items" aria-label="Mobile menu">
             <div class="separator" aria-hidden="true"></div>
             <a href="#" class="anchor">Benefits</a>
             <div class="separator" aria-hidden="true"></div>
@@ -23,29 +24,36 @@
             <a href="#" class="anchor">How-to</a>
             <div class="separator" aria-hidden="true"></div>
             <a href="#" class="anchor">Contact Us</a>
-            <a href="#" class="learn-more"><span>Learn More</span> <img src="assets/images/arrow-icon.png" alt=""></a>
+            <a href="#" class="learn-more"><span>Learn More</span> <img src="assets/images/arrow-icon.png" alt="" aria-hidden="true"></a>
         </nav>
     </header>
 
     <main>
-        <section id="hero"></section>
-        <section id="logo-cloud"></section>
-        <section id="benefits"></section>
-        <section id="features"></section>
-        <section id="specs"></section>
-        <section id="testimonial"></section>
-        <section id="how-it-works"></section>
-        <section id="hero-image"></section>
-        <section id="cta"></section>
+        <section class="hero">
+            <h1 class="display reveal">Browse everything.</h1>
+            <div class="wrapper">
+                <div class="inner reveal">
+                    <img src="assets/images/mobile-screen.png" alt="Phone image" class="reveal">
+                </div>
+            </div>
+        </section>
+        <section class="logo-cloud"></section>
+        <section class="benefits"></section>
+        <section class="features"></section>
+        <section class="specs"></section>
+        <section class="testimonial"></section>
+        <section class="how-it-works"></section>
+        <section class="image"></section>
+        <section class="cta"></section>
     </main>
 
-    <footer role="contentinfo">
-        <nav id="links" aria-label="Footer menu navigation">
-            <a href="#">Benefits</a>
-            <a href="#">Specifications</a>
-            <a href="#">How-to</a>
+    <footer>
+        <nav class="links" aria-label="Footer menu navigation">
+            <a href="#" class="anchor">Benefits</a>
+            <a href="#" class="anchor">Specifications</a>
+            <a href="#" class="anchor">How-to</a>
         </nav>
-        <div id="credits">
+        <div class="credits">
             <img src="assets/images/logo-icon.png" alt="Logo Icon">
             <p class="text-credits">© Area.   2025</p>
             <p class="text-credits">All Rights Reserved</p>
