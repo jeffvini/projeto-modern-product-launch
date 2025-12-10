@@ -1,6 +1,6 @@
-export function initMenu() {
+export default function initMenu() {
     const header = document.querySelector("header");
-    const menuBtn = document.querySelector("button#menu-toggle");
+    const menuBtn = document.querySelector("button#menu-toggle-btn");
     let openMenu = menuBtn.getAttribute("aria-expanded") === "true";
 
     menuBtn.addEventListener("click", () => {
