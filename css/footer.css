@@ -1,40 +1,28 @@
 footer {
     display: flex;
     flex-direction: column;
-    padding: 40px 16px 30px 16px;
+    padding: 2.5rem 1rem 1.87rem 1rem;
 }
 
-footer > nav#links > a {
+footer > nav.links > a.anchor {
     display: block;
-    width: max-content;
-    margin-bottom: 27px;
-    text-decoration: none;
-    font-size: var(--link-size);
-    font-weight: var(--link-weight);
-    color: var(--accent4);
-    transition: color .5s;
+    margin-bottom: 1.68rem;
 }
 
-footer > nav#links > a:hover {
-    color: var(--accent5);
-}
-
-footer > div#credits {
+footer > div.credits {
     display: flex;
-    margin-top: 53px;
+    margin-top: 3.31rem;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-footer > div#credits > img {
-    width: 31.75px;
+footer > div.credits > img {
+    width: 1.98rem;
 }
 
-footer > div#credits > p {
+footer > div.credits > p {
     color: var(--accent1);
     font-family: var(--font-caption);
     font-size: var(--caption-size);
     font-weight: var(--caption-weight);
-    line-height: var(--line-height-caption);
-    letter-spacing: var(--letter-spacing-caption);
 }

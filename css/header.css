@@ -3,15 +3,15 @@ header {
     width: 100%;
     top: 0;
     z-index: 3;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: var(--background);
-    border-radius: 0px 0px 20px 20px;
-    /* top-left: 10px
-       top-right: 20px
-       bottom-right: 30px
-       bottom-left: 40px */
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+    /* top-left: 0rem
+       top-right: 0rem
+       bottom-right: 1.25rem
+       bottom-left: 1.25rem */
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
-    max-height: 70px;
+    max-height: 4.37rem;
     overflow-y: hidden;
 }
 
@@ -20,22 +20,22 @@ header.expanded {
     transition: max-height .5s ease-in-out;
 }
 
-header > div#header-top {
+header > div.header-top {
     display: flex;
     justify-content: space-between;
 }
 
-header > div#header-top > span#area {
-    line-height: 120%;
-    letter-spacing: -8%;
-    font-size: 30px;
+header > div.header-top > span.area {
+    font-size: 1.87rem;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
     font-weight: 500;
 }
 
-header > div#header-top > button#menu-toggle {
-    margin: 3px;
-    width: 24px;
-    height: 24px;
+header > div.header-top > button.menu-toggle {
+    margin: 0.19rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border: none; 
     background-color: var(--background-color);
     background-image: url('../assets/images/menu-icon.png');
@@ -45,79 +45,29 @@ header > div#header-top > button#menu-toggle {
     transition: opacity .2s ease-out;
 }
 
-header > div#header-top > button#menu-toggle.menu-open {
+header > div.header-top > button.menu-toggle.menu-open {
     background-image: url('../assets/images/close-icon.png');
 }
 
-header > div#header-top > button#menu-toggle.menu-closed {
+header > div.header-top > button.menu-toggle.menu-closed {
     background-image: url('../assets/images/menu-icon.png');
 }
 
-header > div#header-top > #menu-toggle.fade {
+header > div.header-top > button.menu-toggle.fade {
   opacity: 0;
 }
 
-header > div#header-top > button#menu-toggle:hover {
+header > div.header-top > button.menu-toggle:hover {
     cursor: pointer;
 }
 
-header > nav#mobile-menu-items { 
+header > nav.dropdown { 
     display: flex;
     flex-direction: column;
 }
 
-header > nav#mobile-menu-items > div.separator {
+header > nav.dropdown > div.separator {
     height: 1px;
     background-color: var(--divider);
-    margin: 30px 0px;
-}
-
-header > nav#mobile-menu-items > a.anchor {
-    text-decoration: none;
-    width: max-content;
-    font-weight: var(--link-weight);
-    font-size: var(--link-size);
-    color: var(--accent4);
-    transition: color .6s;
-}
-
-header > nav#mobile-menu-items > a.anchor:hover {
-    color: var(--accent5);
-}
-
-header > nav#mobile-menu-items > a.learn-more {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 127px;
-    height: 48px;
-    border-style: none;
-    text-decoration: none;
-    border-radius: 50px;
-    background-color: var(--accent1);
-    margin: 80px 0px 12px 0px;
-    transition: background-color .5s;
-}
-
-header > nav#mobile-menu-items > a.learn-more:hover {
-    background-color: var(--accent3);
-}
-
-header > nav#mobile-menu-items > a.learn-more > span {
-    color: rgb(255, 255, 255);
-    font-size: var(--link-size);
-    font-weight: var(--link-weight);
-}
-
-header > nav#mobile-menu-items > a.learn-more > img {
-    width: 7px;
-    height: 20px;
-    margin: 0px 0px 1px 3px;
-    transition: margin-bottom .5s, height .5s;
-}
-
-header > nav#mobile-menu-items > a.learn-more:hover > img {
-    margin-bottom: 14px;
-    height: 17px;
+    margin: 1.87rem 0rem;
 }
