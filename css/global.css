@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
 
+html {
+    font-size: 16px;
+}
+
 :root {
     /* Colors */
         /* Background */
@@ -34,65 +38,23 @@
         --link-weight: 700;
 
         /* Font Sizes */
-        --display-size: 76px;
-        --heading1-size: 50px;
-        --heading2-size: 32px;
-        --heading3-size: 18px;
-        --paragraph-size: 15px;
-        --caption-size: 10.5px;
-        --link-size: 14px;
+        --display-size: 4.75rem;
+        --heading1-size: 3.125rem;
+        --heading2-size: 2rem;
+        --heading3-size: 1.125rem;
+        --paragraph-size: 0.94rem;
+        --caption-size: 0.656rem;
+        --link-size: 0.875rem;
 
         /* Line Height */
-        --line-height-display: 85%;
-        --line-height-heading1: 95%;
-        --line-height-heading2: 110%;
-        --line-height-caption: 140%;
+        --line-height-display: 0.85;
+        --line-height-heading1: 0.95;
+        --line-height-heading2: 1.1;
 
         /* Letter Spacing */
-        --letter-spacing-display: -4.5%;
-        --letter-spacing-heading1: -3%;
-        --letter-spacing-heading2: -4%;
-        --letter-spacing-caption: -3%;
-
-        @media screen and (min-width: 800px){
-        /* Font Sizes */
-        --display-size: 140px;
-        --heading1-size: 54px;
-        --heading2-size: 40px;
-        --caption-size: 11px;
-
-        /* Line Height */
-        --line-height-display: 80%;
-        --line-height-heading1: 90%;
-        --line-height-heading2: 110%;
-        --line-height-caption: 140%;
-
-        /* Letter Spacing */
-        --letter-spacing-display: -5%;
-        --letter-spacing-heading1: -3%;
-        --letter-spacing-heading2: -4%;
-        --letter-spacing-caption: -1%;
-        }
-
-        @media screen and (min-width: 1280px){
-        /* Font Sizes */
-        --display-size: 160px;
-        --heading1-size: 60px;
-        --heading2-size: 40px;
-        --caption-size: 12px;
-
-        /* Line Height */
-        --line-height-display: 85%;
-        --line-height-heading1: 90%;
-        --line-height-heading2: 105%;
-        --line-height-caption: 140%;
-
-        /* Letter Spacing */
-        --letter-spacing-display: -5%;
-        --letter-spacing-heading1: -3%;
-        --letter-spacing-heading2: -4%;
-        --letter-spacing-caption: -1%;
-        }
+        --letter-spacing-display: -0.06em;
+        --letter-spacing-heading1: -0.03em;
+        --letter-spacing-heading2: -0.04em;
 }
 
 * {
@@ -111,5 +73,66 @@ body {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 7.5em;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(1.25rem);
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity .8s ease-out, transform .8s ease-out;
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 7.94rem;
+    height: 3rem;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 3.125rem;
+    background-color: var(--accent1);
+    margin: 5rem 0rem 0.75rem 0rem;
+    transition: background-color .5s;
+}
+
+.learn-more:hover {
+    background-color: var(--accent3);
+}
+
+.learn-more > span {
+    color: rgb(255, 255, 255);
+    font-size: var(--link-size);
+    font-weight: var(--link-weight);
+}
+
+.learn-more > img {
+    width: 0.44rem;
+    height: 1.25rem;
+    margin: 0rem 0rem 0.06rem 0.18rem;
+    transition: margin-bottom .5s, height .5s;
+}
+
+.learn-more:hover > img {
+    margin-bottom: 0.87rem;
+    height: 1.06rem;
+}
+
+.anchor {
+    text-decoration: none;
+    width: max-content;
+    font-weight: var(--link-weight);
+    font-size: var(--link-size);
+    color: var(--accent4);
+    transition: color .6s;
+}
+
+.anchor:hover {
+    color: var(--accent5);
 }
