@@ -1,4 +1,4 @@
-section.benefits > p {
+section.benefits p {
     color: var(--accent5);
     font-size: var(--paragraph-size);
     font-weight: var(--paragraph-weight);
@@ -19,4 +19,10 @@ section.benefits > h2 {
     letter-spacing: var(--letter-spacing-heading1);
     line-height: var(--line-height-heading1);
     margin-bottom: 2rem;
+}
+
+section.benefits > div.benefits-list > img.benefit-icon {
+    width: 1.6rem;
+    height: auto;
+    margin-bottom: 0.8rem;
 }
