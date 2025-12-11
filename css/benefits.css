@@ -26,3 +26,7 @@ section.benefits > div.benefits-list > img.benefit-icon {
     height: auto;
     margin-bottom: 0.8rem;
 }
+
+section.benefits > div.benefits-list > hr {
+    margin: 3.4rem 0rem 2.7rem 0rem;
+}
