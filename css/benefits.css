@@ -1,0 +1,7 @@
+section.benefits > p.benefits-caption {
+    color: var(--accent1);
+    font-family: var(--font-caption);
+    font-size: var(--caption-size);
+    font-weight: var(--caption-weight);
+    margin-bottom: 2rem;
+}
