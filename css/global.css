@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
 
 html {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 :root {
@@ -66,14 +66,33 @@ html {
 body {
     display: grid;
     background-color: var(--background);
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns:  3vw 1fr 3vw;
+    grid-template-areas: 
+        "margin-left main margin-right"
+        "margin-left footer margin-right";
+    grid-template-rows: 1fr auto;
     min-height: 100dvh;
     font-family: var(--font-paragraph-link);
 }
 
+header {
+    grid-area: header;
+}
+
 main {
+    grid-area: main;
     margin-top: 7.5em;
+}
+
+hr {
+    height: 1.1px;
+    border-style: none;
+    background-color: var(--divider);
+    margin: 4.3rem 0rem;
+}
+
+footer {
+    grid-area: footer;
 }
 
 .reveal {
