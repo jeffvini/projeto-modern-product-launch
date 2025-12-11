@@ -16,6 +16,8 @@ section.hero > h1.display {
 
 section.hero > div.wrapper {
     overflow-y: hidden;
+    width: 100%;
+    max-width: 1300px;
 }
 
 section.hero > div.wrapper > div.inner {
@@ -24,7 +26,6 @@ section.hero > div.wrapper > div.inner {
     background-color: var(--accent3);
     margin-top: 6.25rem;
     height: 22.6rem;
-    min-width: 90vw;
     border-radius: 1.87rem;
 }
 
