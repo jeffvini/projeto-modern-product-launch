@@ -12,6 +12,10 @@ section.benefits > p.benefits-caption {
     margin-bottom: 2rem;
 }
 
+section.benefits > hr {
+    margin: 6rem 0rem 2.7rem 0rem;
+}
+
 section.benefits > h2 {
     font-family: var(--font-heading);
     font-size: var(--heading1-size);
