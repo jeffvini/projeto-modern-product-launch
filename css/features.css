@@ -17,3 +17,9 @@ section.features > ul.features-list {
     list-style: none;
     margin-top: 2.4rem;
 }
+
+section.features > ul.features-list > li.feature-item {
+    display: flex;
+    border-top: solid 1px var(--divider);
+    padding: 1.5rem 0rem;
+}
