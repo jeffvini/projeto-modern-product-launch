@@ -54,3 +54,11 @@ section.features > a.discover-more:hover {
     color: white;
     background-color: var(--accent3);
 }
+
+section.features > img {
+    margin-top: 1.9rem;
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
+    border-radius: 40px;
+}
