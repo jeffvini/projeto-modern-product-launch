@@ -1,10 +1,10 @@
-section.benefits p {
+.benefits p {
     color: var(--accent5);
     font-size: var(--paragraph-size);
     font-weight: var(--paragraph-weight);
 }
 
-section.benefits > p.benefits-caption {
+.benefits-caption {
     color: var(--accent1);
     font-family: var(--font-caption);
     font-size: var(--caption-size);
@@ -12,11 +12,7 @@ section.benefits > p.benefits-caption {
     margin-bottom: 2rem;
 }
 
-section.benefits > hr {
-    margin: 6rem 0rem 2.7rem 0rem;
-}
-
-section.benefits > h2 {
+.benefits h2 {
     font-family: var(--font-heading);
     font-size: var(--heading1-size);
     font-weight: var(--heading1-weight);
@@ -25,28 +21,32 @@ section.benefits > h2 {
     margin-bottom: 2rem;
 }
 
-section.benefits > div.benefits-list > img.benefit-icon {
-    width: 1.6rem;
-    height: auto;
-    margin-bottom: 0.8rem;
+.benefits-list {
+    list-style: none;
+    margin-top: 6rem;
 }
 
-section.benefits > div.benefits-list > h3 {
+.benefit-item {
+    border-top: 1px solid var(--divider);
+    padding: 2.5rem 0 4rem;
+}
+
+.benefit-item h3 {
     font-family: var(--font-heading);
     font-size: var(--heading3-size);
     font-weight: var(--heading3-weight);
     margin-bottom: 1rem;
 }
 
-section.benefits > div.benefits-list > hr {
-    margin: 3.4rem 0rem 2.7rem 0rem;
+.benefit-icon {
+    width: 1.6rem;
+    margin-bottom: 0.8rem;
 }
 
-section.benefits >  div.benefits-list > img.hero-image {
+.benefit-illustration {
     width: 100%;
     height: 600px;
-    margin: 7rem 0rem 2rem 0rem;
+    margin-top: 7rem;
     border-radius: 30px;
     object-fit: cover;
-    aspect-ratio: 16 / 9;
 }
