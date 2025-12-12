@@ -30,3 +30,7 @@ section.features > ul.features-list > li.feature-item > span.item-number {
     font-size: var(--paragraph-size);
     margin-right: 1.7rem;
 }
+
+section.features > ul.features-list > li.feature-item > p {
+    color: var(--accent4);
+}
