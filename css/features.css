@@ -34,3 +34,23 @@ section.features > ul.features-list > li.feature-item > span.item-number {
 section.features > ul.features-list > li.feature-item > p {
     color: var(--accent4);
 }
+
+section.features > a.discover-more {
+    display: block;
+    background-color: var(--accent2);
+    color: var(--accent4);
+    width: max-content;
+    font-weight: var(--link-weight);
+    font-size: var(--link-size);
+    text-decoration: none;
+    border-style: none;
+    border-radius: 1.5rem;
+    padding: 0.9rem 1.2rem;
+    margin: 3rem 0rem;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+section.features > a.discover-more:hover {
+    color: white;
+    background-color: var(--accent3);
+}
