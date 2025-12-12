@@ -23,3 +23,10 @@ section.features > ul.features-list > li.feature-item {
     border-top: solid 1px var(--divider);
     padding: 1.5rem 0rem;
 }
+
+section.features > ul.features-list > li.feature-item > span.item-number {
+    color: var(--accent5);
+    font-weight: bold;
+    font-size: var(--paragraph-size);
+    margin-right: 1.7rem;
+}
