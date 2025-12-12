@@ -26,6 +26,11 @@
     margin-top: 6rem;
 }
 
+.benefits .benefit-item {
+    border-top: solid 1px var(--divider);
+    padding: 2.5rem 0rem 4rem 0rem;
+}
+
 .benefits .benefit-item .benefit-icon {
     width: 1.6rem;
     height: auto;
