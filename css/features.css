@@ -3,6 +3,7 @@ section.features p {
     font-weight: var(--paragraph-weight);
     color: var(--accent5);
 }
+
 section.features > h2 {
     font-family: var(--font-heading);
     font-size: var(--heading1-size);
@@ -10,4 +11,9 @@ section.features > h2 {
     letter-spacing: var(--letter-spacing-heading1);
     line-height: var(--line-height-heading1);
     margin-bottom: 2.7rem;
+}
+
+section.features > ul.features-list {
+    list-style: none;
+    margin-top: 2.4rem;
 }
