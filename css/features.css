@@ -1,3 +1,8 @@
+section.features p {
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+}
 section.features > h2 {
     font-family: var(--font-heading);
     font-size: var(--heading1-size);
