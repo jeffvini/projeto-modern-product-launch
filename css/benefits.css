@@ -21,6 +21,11 @@
     margin-bottom: 2rem;
 }
 
+.benefits .benefits-list {
+    list-style: none;
+    margin-top: 6rem;
+}
+
 .benefits .benefits-list .benefit-icon {
     width: 1.6rem;
     height: auto;
