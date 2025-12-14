@@ -1,18 +1,18 @@
-section.logo-cloud > p.trusted-by {
+.logo-cloud .trusted-by {
     font-size: var(--paragraph-size);
     font-weight: var(--paragraph-weight);
     color: var(--accent6);
     margin: 3rem 0rem;
 }
 
-section.logo-cloud > div.container-logo-ipsum {
+.logo-cloud .container-logo-ipsum {
     display: flex;
     justify-content: center;
     gap: 4rem;
     flex-wrap: wrap;
 }
 
-section.logo-cloud > div.container-logo-ipsum > img.logo-ipsum {
+.logo-cloud .logo-ipsum {
     width: 6rem;
     filter: brightness(0.5);
 }
