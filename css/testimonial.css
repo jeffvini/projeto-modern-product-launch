@@ -20,3 +20,9 @@
     color: var(--accent4);
     margin-bottom: 3rem;
 }
+
+.testimonial .author {
+   display: flex;
+   align-items: center;
+   gap: 0.6rem;
+}
