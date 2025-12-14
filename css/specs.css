@@ -62,18 +62,23 @@
     color: var(--accent4);
 }
 
-.specs .platform-specs {
-    border-right: solid 1px rgba(0, 0, 0, 0.08);
-}
-
 .specs .platforms > :first-child .platform-specs {
     border: none;
 }
 
+.specs .platforms > :last-child .platform-specs{
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
 .specs .spec {
     list-style: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     padding: 3rem;
+}
+
+.specs .platforms > :first-child .spec{
+    border-bottom: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .specs .spec-icon {
