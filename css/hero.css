@@ -1,11 +1,11 @@
-section.hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-section.hero > h1.display {
+.hero .display {
     font-family: var(--font-heading);
     font-weight: var(--display-weight);
     font-size: var(--display-size);
@@ -14,13 +14,13 @@ section.hero > h1.display {
     text-align: center;
 }
 
-section.hero > div.wrapper {
+.hero .wrapper {
     overflow-y: hidden;
     width: 100%;
     max-width: 1300px;
 }
 
-section.hero > div.wrapper > div.inner {
+.hero .inner {
     display: flex;
     justify-content: center;
     background-color: var(--accent3);
@@ -29,7 +29,7 @@ section.hero > div.wrapper > div.inner {
     border-radius: 1.87rem;
 }
 
-section.hero > div.wrapper > div.inner > img {
+.hero .inner img {
     margin-top: -2.81rem;
     width: 16rem;
     height: 32.61rem;
