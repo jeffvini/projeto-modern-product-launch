@@ -1,3 +1,11 @@
+.specs p {
+    font-family: var(--font-paragraph);
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+    text-align: center;
+}
+
 .specs .specs-caption {
     font-family: var(--font-caption);
     font-size: var(--caption-size);
