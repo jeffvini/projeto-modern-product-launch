@@ -4,23 +4,23 @@ footer {
     padding-bottom: 1.87rem;
 }
 
-footer > nav.links > a.anchor {
+footer a.anchor {
     display: block;
     margin-bottom: 1.68rem;
 }
 
-footer > div.credits {
+footer div.credits {
     display: flex;
     margin-top: 3.31rem;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-footer > div.credits > img {
+footer img {
     width: 1.98rem;
 }
 
-footer > div.credits > p {
+footer p.text-credits {
     color: var(--accent1);
     font-family: var(--font-caption);
     font-size: var(--caption-size);
