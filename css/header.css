@@ -20,19 +20,19 @@ header.expanded {
     transition: max-height .5s ease-in-out;
 }
 
-header > div.header-top {
+header .header-top {
     display: flex;
     justify-content: space-between;
 }
 
-header > div.header-top > span.area {
+header .area {
     font-size: 1.87rem;
     line-height: 1.2;
     letter-spacing: -0.05em;
     font-weight: 500;
 }
 
-header > div.header-top > button.menu-toggle {
+header .menu-toggle {
     margin: 0.19rem;
     width: 1.5rem;
     height: 1.5rem;
@@ -45,28 +45,28 @@ header > div.header-top > button.menu-toggle {
     transition: opacity .2s ease-out;
 }
 
-header > div.header-top > button.menu-toggle.menu-open {
+header .menu-open {
     background-image: url('../assets/images/close-icon.png');
 }
 
-header > div.header-top > button.menu-toggle.menu-closed {
+header .menu-closed {
     background-image: url('../assets/images/menu-icon.png');
 }
 
-header > div.header-top > button.menu-toggle.fade {
+header .menu-toggle.fade {
   opacity: 0;
 }
 
-header > div.header-top > button.menu-toggle:hover {
+header .menu-toggle:hover {
     cursor: pointer;
 }
 
-header > nav.dropdown { 
+header .dropdown { 
     display: flex;
     flex-direction: column;
 }
 
-header > nav.dropdown > div.separator {
+header .separator {
     height: 1px;
     background-color: var(--divider);
     margin: 1.87rem 0rem;
