@@ -37,7 +37,6 @@
 
 .specs .platform {
     flex-shrink: 0;
-    border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .specs .platforms > :first-child {
@@ -60,4 +59,8 @@
 
 .specs .platforms > :first-child .platform-name {
     color: var(--accent4);
+}
+
+.specs .platform-specs {
+ 
 }
