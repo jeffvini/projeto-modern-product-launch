@@ -27,3 +27,9 @@
 .specs .discover-more {
     margin: 2rem auto;
 }
+
+.specs .platforms {
+    display: flex;
+    overflow-x: auto;
+    margin: 7rem 0;
+}
