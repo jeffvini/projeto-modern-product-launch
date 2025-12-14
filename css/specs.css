@@ -1,0 +1,7 @@
+.specs .specs-caption {
+    font-family: var(--font-caption);
+    font-size: var(--caption-size);
+    font-weight: var(--caption-weight);
+    color: var(--accent1);
+    text-align: center;
+}
