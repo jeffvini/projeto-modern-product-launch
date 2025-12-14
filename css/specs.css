@@ -68,3 +68,9 @@
 .specs .platforms > :first-child .platform-specs {
     border: none;
 }
+
+.specs .spec {
+    list-style: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 3rem;
+}
