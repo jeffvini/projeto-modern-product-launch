@@ -38,6 +38,12 @@
     flex-shrink: 0;
 }
 
+.specs .platforms > :first-child {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+}
+
 .specs .platform-name {
     font-family: var(--font-paragraph-link);
     font-size: 1.7rem;
