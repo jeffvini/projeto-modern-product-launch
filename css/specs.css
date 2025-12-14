@@ -33,3 +33,15 @@
     overflow-x: auto;
     margin: 7rem 0;
 }
+
+.specs .platform-name {
+    font-family: var(--font-paragraph-link);
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: -0.1rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 1.8rem 0;
+    color: var(--accent5);
+    border-bottom: solid 1px var(--accent5);
+}
