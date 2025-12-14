@@ -4,12 +4,12 @@ footer {
     padding-bottom: 1.87rem;
 }
 
-footer a.anchor {
+footer .anchor {
     display: block;
     margin-bottom: 1.68rem;
 }
 
-footer div.credits {
+footer .credits {
     display: flex;
     margin-top: 3.31rem;
     align-items: flex-end;
@@ -20,7 +20,7 @@ footer img {
     width: 1.98rem;
 }
 
-footer p.text-credits {
+footer .text-credits {
     color: var(--accent1);
     font-family: var(--font-caption);
     font-size: var(--caption-size);
