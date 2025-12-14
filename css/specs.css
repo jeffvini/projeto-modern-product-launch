@@ -74,3 +74,9 @@
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     padding: 3rem;
 }
+
+.specs .spec-icon {
+    width: 1rem;
+    margin-right: 0.5rem;
+    transform: translateY(0.2rem);
+}
