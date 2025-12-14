@@ -1,0 +1,88 @@
+.specs p {
+    font-family: var(--font-paragraph);
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+    text-align: center;
+}
+
+.specs .specs-caption {
+    font-family: var(--font-caption);
+    font-size: var(--caption-size);
+    font-weight: var(--caption-weight);
+    color: var(--accent1);
+    text-align: center;
+}
+
+.specs h2 {
+    font-family: var(--font-heading);
+    font-size: var(--heading1-size);
+    font-weight: var(--heading1-weight);
+    letter-spacing: var(--letter-spacing-heading1);
+    line-height: var(--line-height-heading1);
+    text-align: center;
+    margin: 1.8rem 0;
+}
+
+.specs .discover-more {
+    margin: 2rem auto;
+}
+
+.specs .platforms {
+    display: flex;
+    overflow-x: auto;
+    width: 90vw;
+    margin: 7rem 0;
+    padding: 0em 0.3rem 0 0.3rem;
+}
+
+.specs .platform {
+    flex-shrink: 0;
+}
+
+.specs .platforms > :first-child {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+}
+
+.specs .platform-name {
+    font-family: var(--font-paragraph-link);
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: -0.1rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 1.8rem 0;
+    color: var(--accent5);
+    border-bottom: solid 1px var(--accent5);
+}
+
+.specs .platforms > :first-child .platform-name {
+    color: var(--accent4);
+}
+
+.specs .platforms > :first-child .platform-specs {
+    border: none;
+}
+
+.specs .platforms > :last-child .platform-specs{
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.specs .spec {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 3rem;
+}
+
+.specs .platforms > :first-child .spec{
+    border-bottom: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.specs .spec-icon {
+    width: 1rem;
+    margin-right: 0.5rem;
+    transform: translateY(0.2rem);
+}
