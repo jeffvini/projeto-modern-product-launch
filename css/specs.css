@@ -45,3 +45,7 @@
     color: var(--accent5);
     border-bottom: solid 1px var(--accent5);
 }
+
+.specs .platforms > :first-child .platform-name {
+    color: var(--accent4);
+}
