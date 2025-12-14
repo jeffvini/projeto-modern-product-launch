@@ -18,4 +18,5 @@
     line-height: var(--line-height-heading2);
     letter-spacing: var(--letter-spacing-heading2);
     color: var(--accent4);
+    margin-bottom: 3rem;
 }
