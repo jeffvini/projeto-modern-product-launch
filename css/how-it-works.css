@@ -23,3 +23,8 @@
 .how-it-works .step {
     flex-shrink: 0;
 }
+
+.how-it-works .item-number {
+    font-size: 3.7rem;
+    color: var(--accent6);
+}
