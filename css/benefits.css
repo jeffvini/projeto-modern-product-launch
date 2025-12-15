@@ -27,6 +27,8 @@
 }
 
 .benefits .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin-top: 6rem;
 }
