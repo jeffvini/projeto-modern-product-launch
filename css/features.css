@@ -1,3 +1,9 @@
+.features {
+    border-top: solid 1px var(--divider);
+    margin-top: 1rem;
+    padding-top: 4rem;
+}
+
 .features p {
     font-size: var(--paragraph-size);
     font-weight: var(--paragraph-weight);
