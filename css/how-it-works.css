@@ -1,0 +1,56 @@
+.how-it-works .section-intro {
+    border-bottom: solid 1px rgb(0, 0, 0, 0.09);
+    margin-bottom: 4rem;
+    padding-bottom: 1.4rem;
+}
+
+.how-it-works h2 {
+    font-family: var(--font-heading);
+    font-size: var(--heading1-size);
+    font-weight: var(--heading1-weight);
+    line-height: var(--line-height-heading1);
+    letter-spacing: var(--letter-spacing-heading1);
+}
+
+.how-it-works .steps {
+    display: flex;
+    list-style: none;
+    max-width: 90vw;
+    gap: 3.4rem;
+    overflow-x: auto;
+}
+
+.how-it-works .step {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 14rem;
+    margin-bottom: 1.5rem;
+}
+
+.how-it-works .item-number {
+    font-size: 3.7rem;
+    color: var(--accent6);
+    margin-bottom: 2.7rem;
+}
+
+.how-it-works .step-title {
+    font-family: var(--font-heading);
+    font-size: var(--heading3-size);
+    font-weight: var(--heading3-weight);
+    margin-bottom: 1rem;
+}
+
+.how-it-works .step-text {
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+}
+
+.how-it-works .mountain-image {
+    width: 100%;
+    height: 600px;
+    margin-top: 8rem;
+    border-radius: 30px;
+    object-fit: cover;
+}
