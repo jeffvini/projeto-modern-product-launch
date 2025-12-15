@@ -1,3 +1,9 @@
+.how-it-works .section-intro {
+    border-bottom: solid 1px rgb(0, 0, 0, 0.09);
+    margin-bottom: 4rem;
+    padding-bottom: 1.4rem;
+}
+
 .how-it-works h2 {
     font-family: var(--font-heading);
     font-size: var(--heading1-size);
