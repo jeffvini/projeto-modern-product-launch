@@ -35,7 +35,7 @@
 
 .benefits .benefit-item {
     border-top: 1px solid var(--divider);
-    padding: 2.5rem 0 4rem;
+    padding: 2.5rem 1.3rem 4rem 0;
 }
 
 .benefits h3 {
