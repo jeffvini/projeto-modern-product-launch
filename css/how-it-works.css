@@ -38,3 +38,9 @@
     font-weight: var(--heading3-weight);
     margin-bottom: 1rem;
 }
+
+.how-it-works .step-text {
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+}
