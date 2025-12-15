@@ -46,3 +46,11 @@
     font-weight: var(--paragraph-weight);
     color: var(--accent5);
 }
+
+.how-it-works .mountain-image {
+    width: 100%;
+    height: 600px;
+    margin-top: 8rem;
+    border-radius: 30px;
+    object-fit: cover;
+}
