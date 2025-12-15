@@ -4,6 +4,7 @@
 
 html {
     font-size: 15px;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -174,4 +175,8 @@ footer {
 
 .anchor:hover {
     color: var(--accent5);
+}
+
+.benefits, .specs, .how-it-works, .cta {
+    scroll-margin-top: 80px;
 }
