@@ -11,3 +11,11 @@
     line-height: var(--line-height-heading1);
     letter-spacing: var(--letter-spacing-heading1);
 }
+
+.how-it-works .steps {
+    display: flex;
+    list-style: none;
+    width: 90vw;
+    gap: 3.4rem;
+    overflow-x: auto;
+}
