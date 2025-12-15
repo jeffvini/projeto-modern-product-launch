@@ -19,3 +19,7 @@
     gap: 3.4rem;
     overflow-x: auto;
 }
+
+.how-it-works .step {
+    flex-shrink: 0;
+}
