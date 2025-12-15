@@ -10,3 +10,9 @@
     line-height: var(--line-height-heading1);
     margin-bottom: 2rem;
 }
+
+.cta .cta-text {
+    font-size: var(--paragraph-size);
+    font-weight: var(--paragraph-weight);
+    color: var(--accent5);
+}
