@@ -16,3 +16,10 @@
     font-weight: var(--paragraph-weight);
     color: var(--accent5);
 }
+
+.cta .learn-more {
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 8rem;
+    width: 95%;
+}
