@@ -36,3 +36,9 @@
     border: solid 0.68rem black;
     border-radius: 2.69rem;
 }
+
+@media (min-width: 768px) {
+    .hero .display {
+        font-size: 7rem;
+    }
+}
