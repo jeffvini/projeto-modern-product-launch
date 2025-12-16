@@ -107,7 +107,8 @@ header .separator {
         border: none;
     }
 
-    header .learn-more {
+    header .header-top > .learn-more {
+        display: flex;
         margin: 0;
     }
 
