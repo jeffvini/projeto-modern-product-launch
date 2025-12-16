@@ -78,7 +78,7 @@
 .specs .spec {
     list-style: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 3rem;
+    padding: 2.2rem;
 }
 
 .specs .platforms > :first-child .spec{
