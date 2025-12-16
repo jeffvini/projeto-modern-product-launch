@@ -12,7 +12,7 @@
 }
 
 .testimonial .testimonial-content {
-    border-top: solid 1px rgb(0, 0, 0, 0.1);
+    border-top: solid 1px var(--divider);
     margin: 2.6rem 0 6rem;
     padding: 2.6rem 0.9rem 0 0.9rem;
 }
