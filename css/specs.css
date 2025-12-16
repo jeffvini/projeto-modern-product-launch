@@ -1,3 +1,9 @@
+.specs {
+    border-top: solid 1px var(--divider);
+    margin-top: 4rem;
+    padding-top: 4.5rem;
+}
+
 .specs p {
     font-family: var(--font-paragraph);
     font-size: var(--paragraph-size);
