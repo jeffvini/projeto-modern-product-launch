@@ -1,4 +1,7 @@
 .cta {
+    border-top: solid 1px var(--divider);
+    margin-top: 5rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
