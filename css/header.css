@@ -78,6 +78,7 @@ header .separator {
         position: static;
         overflow-y: visible;
         box-shadow: none;
+        padding: 1.25rem 0;
     }
 
     header .menu-toggle {
