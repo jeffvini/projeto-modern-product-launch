@@ -1,7 +1,8 @@
 footer {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.87rem;
+    border-top: solid 1px var(--divider);
+    padding: 4.5rem 0 1.87rem;
 }
 
 footer .anchor {

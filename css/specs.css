@@ -1,5 +1,10 @@
+.specs {
+    border-top: solid 1px var(--divider);
+    margin-top: 4rem;
+    padding-top: 4.5rem;
+}
+
 .specs p {
-    font-family: var(--font-paragraph);
     font-size: var(--paragraph-size);
     font-weight: var(--paragraph-weight);
     color: var(--accent5);
@@ -32,8 +37,8 @@
     display: flex;
     overflow-x: auto;
     width: 90vw;
-    margin: 7rem 0;
-    padding: 0em 0.3rem 0 0.3rem;
+    margin: 4rem 0;
+    padding: 1rem 0.3rem 0.4rem;
 }
 
 .specs .platform {
@@ -42,7 +47,7 @@
 
 .specs .platforms > :first-child {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
-    border: 2px solid rgba(0, 0, 0, 0.08);
+    outline: 2px solid rgba(0, 0, 0, 0.08);
     border-radius: 2rem;
 }
 
@@ -73,7 +78,7 @@
 .specs .spec {
     list-style: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 3rem;
+    padding: 2.2rem;
 }
 
 .specs .platforms > :first-child .spec{
@@ -88,6 +93,8 @@
 }
 
 .specs .spec-text {
+    display: inline-block;
+    text-align: right;
     font-size: 1rem;
     font-weight: 400;
 }

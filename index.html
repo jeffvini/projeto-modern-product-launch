@@ -19,19 +19,19 @@
 <body>
     <header>
         <div class="header-top">
-            <span class="area">Area</span>
+            <p class="logo">Area</p>
             <button class="menu-toggle" id="menu-toggle-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu-items"></button>
         </div>
         <nav class="dropdown" id="mobile-menu-items" aria-label="Mobile menu">
             <div class="separator" aria-hidden="true"></div>
-            <a href="#" class="anchor">Benefits</a>
+            <a href="#benefits" class="anchor">Benefits</a>
             <div class="separator" aria-hidden="true"></div>
-            <a href="#" class="anchor">Specifications</a>
+            <a href="#specs" class="anchor">Specifications</a>
             <div class="separator" aria-hidden="true"></div>
-            <a href="#" class="anchor">How-to</a>
+            <a href="#how-to" class="anchor">How-to</a>
             <div class="separator" aria-hidden="true"></div>
-            <a href="#" class="anchor">Contact Us</a>
-            <a href="#" class="learn-more"><span>Learn More</span> <img src="assets/images/arrow-icon.png" alt="" aria-hidden="true"></a>
+            <a href="#cta" class="anchor">Contact Us</a>
+            <a href="https://www.figma.com/sites" rel="noopener noreferrer" target="_blank" class="learn-more"><span>Learn More</span> <img src="assets/images/arrow-icon.png" alt="" aria-hidden="true"></a>
         </nav>
     </header>
 
@@ -40,10 +40,15 @@
             <h1 class="display reveal">Browse everything.</h1>
             <div class="wrapper">
                 <div class="inner reveal">
-                    <img src="assets/images/mobile-screen.png" alt="Phone image" class="reveal">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./assets/images/desktop-screen.png">
+                        <source media="(min-width: 800px)" srcset="./assets/images/tablet-screen.png">
+                        <img src="assets/images/mobile-screen.png" alt="Area app interface on a device" class="reveal">
+                    </picture>
                 </div>
             </div>
         </section>
+
         <section class="logo-cloud">
             <p class="trusted-by reveal">Trusted by: </p>
             <div class="container-logo-ipsum reveal">
@@ -55,8 +60,8 @@
                 <img class="logo-ipsum" src="assets/images/logo-ipsum-6.png" alt="Logo ipsum 6 image">
             </div>
         </section>
-        <hr>
-        <section class="benefits reveal">
+
+        <section class="benefits reveal" id="benefits">
             <p class="benefits-caption">Benefits</p>
             <h2>We've cracked the code.</h2>
             <p>Area provides real insights without the data overload.</p>
@@ -80,70 +85,72 @@
                     <img class="benefit-icon" src="assets/images/chart-icon.png" alt="" aria-hidden="true">
                     <h3>Visualize Growth</h3>
                     <p>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
-                    <img class="benefit-illustration" src="assets/images/mountain-rage.jpg" alt="" aria-hidden="true">
+                    <img class="benefit-illustration" src="assets/images/mountain-rage.jpg" alt="Mountains representing business growth and expansion across all regions">
                 </li>
             </ul>
         </section>
-        <hr>
+        
         <section class="features reveal">
-            <h2>See the Big Picture</h2>
-            <p>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
-            <ul class="features-list">
-                <li class="feature-item">
-                    <span class="item-number">01</span>
-                    <p>Spot Trends in Seconds: No more digging through numbers.</p>
-                </li>
-                <li class="feature-item">
-                    <span class="item-number">02</span>
-                    <p>Get Everyone on the Same Page: Share easy-to-understand reports with your team.</p>
-                </li>
-                <li class="feature-item">
-                    <span class="item-number">03</span>
-                    <p>Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</p>
-                </li>
-                <li class="feature-item">
-                    <span class="item-number">04</span>
-                    <p>Your Global Snapshot: Get a quick, clear overview of your entire operation.</p>
-                </li>
-            </ul>
-            <a href="#" class="discover-more"><span>Discover More</span></a>
-            <img src="assets/images/cylinders.jpg" alt="" aria-hidden="true">
+            <div class="features-content">
+                <h2>See the Big Picture</h2>
+                <p>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
+                <ol class="features-list">
+                    <li class="feature-item">
+                        <span class="item-number">01</span>
+                        <p>Spot Trends in Seconds: No more digging through numbers.</p>
+                    </li>
+                    <li class="feature-item">
+                        <span class="item-number">02</span>
+                        <p>Get Everyone on the Same Page: Share easy-to-understand reports with your team.</p>
+                    </li>
+                    <li class="feature-item">
+                        <span class="item-number">03</span>
+                        <p>Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</p>
+                    </li>
+                    <li class="feature-item">
+                        <span class="item-number">04</span>
+                        <p>Your Global Snapshot: Get a quick, clear overview of your entire operation.</p>
+                    </li>
+                </ol>
+                <a href="https://www.figma.com/sites" rel="noopener noreferrer" target="_blank" class="discover-more"><span>Discover More</span></a>
+            </div>
+            <img src="assets/images/cylinders.jpg" alt="White paper rolls on a table" aria-hidden="true">
         </section>
-        <hr>
-        <section class="specs reveal">
+
+        <section class="specs reveal" id="specs">
             <div class="text-content">
                 <p class="specs-caption">Specs</p>
                 <h2>Why Choose Area?</h2>
                 <p>You need a solution that keeps up. That’s why we developed Area. A developer-friendly approach to streamline your business.</p>
-                <a href="#" class="discover-more">Discover More</a>
+                <a href="https://www.figma.com/sites" rel="noopener noreferrer" target="_blank" class="discover-more">Discover More</a>
             </div>
             <div class="platforms">
                 <article class="platform">
                     <h3 class="platform-name">Area</h3>
                     <ul class="platform-specs">
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Ultra-fast browsing</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Ultra-fast browsing</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Advanced AI insights</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Advanced AI insights</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Seamless integration</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Seamless integration</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Advanced AI insights</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Advanced AI insights</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Ultra-fast browsing</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Ultra-fast browsing</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Full UTF-8 support</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Full UTF-8 support</p>
                         </li>
                     </ul>
                 </article>
@@ -151,28 +158,28 @@
                     <h3 class="platform-name">WebSurge</h3>
                     <ul class="platform-specs">
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Fast browsing</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Fast browsing</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Basic AI recommendations</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Basic AI recommendations</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Restricts customization</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Restricts customization</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Basic AI insights</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Basic AI insights</p>
                         </li>
                         <li class="spec spec--positive">
-                            <img src="assets/images/check-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Fast browsing</span>
+                            <img src="assets/images/check-icon.png" alt="Check icon indicating positive feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Fast browsing</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Potential display errors</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Potential display errors</p>
                         </li>
                     </ul>
                 </article>
@@ -180,35 +187,36 @@
                     <h3 class="platform-name">HyperView</h3>
                     <ul class="platform-specs">
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Moderate speeds</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Moderate speeds</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">No AI assistance</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">No AI assistance</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Steep learning curve</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Steep learning curve</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">No AI assistance</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">No AI assistance</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Moderate speeds</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Moderate speeds</p>
                         </li>
                         <li class="spec spec--negative">
-                            <img src="assets/images/close-icon.png" alt="" aria-hidden="true" class="spec-icon">
-                            <span class="spec-text">Partial UTF-8 support</span>
+                            <img src="assets/images/close-icon.png" alt="Close icon indicating negative feature" aria-hidden="true" class="spec-icon">
+                            <p class="spec-text">Partial UTF-8 support</p>
                         </li>
                     </ul>
                 </article>
             </div>
         </section>
+
         <section class="testimonial reveal">
-            <img src="assets/images/spheres.jpg" alt="Foto de John Smith" class="author-image">
+            <img src="assets/images/spheres.jpg" alt="Photo of John Smith" class="author-image">
             <div class="testimonial-content">
                 <blockquote class="testimonial-text">“I was skeptical, but Area has completely transformed the way I manage my business. The data visualizations are so clear and intuitive, and the platform is so easy to use. I can't imagine running my company without it.”
                 </blockquote>
@@ -218,11 +226,11 @@
                 </div>
             </div> 
         </section>
-        <hr>
-        <section class="how-it-works reveal">
+
+        <section class="how-it-works reveal" id="how-to">
             <div class="section-intro">
                 <h2>Map Your Success</h2>
-                <a href="#" class="discover-more">Discover More</a>
+                <a href="https://www.figma.com/sites" rel="noopener noreferrer" target="_blank" class="discover-more">Discover More</a>
             </div>
             <ol class="steps">
                 <li class="step">
@@ -243,20 +251,19 @@
             </ol>
             <img src="assets/images/mountain.jpg" class="mountain-image" alt="" aria-hidden="true">
         </section>
-        <hr>
-        <section class="cta reveal">
+
+        <section class="cta reveal" id="cta">
             <h2 class="cta-title">Connect with us</h2>
             <p class="cta-text">Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.</p>
-            <a href="#" class="learn-more" aria-label="Learn more about Area"><span>Learn More</span><img src="assets/images/arrow-icon.png" alt="" aria-hidden="true"></a>
+            <a href="https://www.figma.com/sites" rel="noopener noreferrer" target="_blank" class="learn-more" aria-label="Learn more about Area"><span>Learn More</span><img src="assets/images/arrow-icon.png" alt="" aria-hidden="true"></a>
         </section>
-        <hr>
     </main>
 
     <footer>
         <nav class="links" aria-label="Footer menu navigation">
-            <a href="#" class="anchor">Benefits</a>
-            <a href="#" class="anchor">Specifications</a>
-            <a href="#" class="anchor">How-to</a>
+            <a href="#benefits" class="anchor">Benefits</a>
+            <a href="#specs" class="anchor">Specifications</a>
+            <a href="#how-to" class="anchor">How-to</a>
         </nav>
         <div class="credits">
             <img src="assets/images/logo-icon.png" alt="Logo Icon">

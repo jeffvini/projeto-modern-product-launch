@@ -17,7 +17,7 @@ header {
 
 header.expanded {
     max-height: 100vh;
-    transition: max-height .5s ease-in-out;
+    transition: max-height .4s ease-in-out;
 }
 
 header .header-top {
@@ -25,7 +25,7 @@ header .header-top {
     justify-content: space-between;
 }
 
-header .area {
+header .logo {
     font-size: 1.87rem;
     line-height: 1.2;
     letter-spacing: -0.05em;

@@ -1,4 +1,7 @@
 .cta {
+    border-top: solid 1px var(--divider);
+    margin-top: 5rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
@@ -18,6 +21,6 @@
 }
 
 .cta .learn-more {
-    margin: 2.5rem auto 8rem;
+    margin: 2.5rem auto 5rem;
     width: 95%;
 }

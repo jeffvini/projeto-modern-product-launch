@@ -4,6 +4,7 @@
 
 html {
     font-size: 15px;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -66,11 +67,11 @@ html {
 body {
     display: grid;
     background-color: var(--background);
-    grid-template-columns:  3vw 1fr 3vw;
+    grid-template-columns:  4vw 1fr 4vw;
+    grid-template-rows: 1fr auto;
     grid-template-areas: 
         "margin-left main margin-right"
         "margin-left footer margin-right";
-    grid-template-rows: 1fr auto;
     min-height: 100dvh;
     font-family: var(--font-paragraph-link);
 }
@@ -82,13 +83,6 @@ header {
 main {
     grid-area: main;
     margin-top: 7.5em;
-}
-
-hr {
-    height: 1.1px;
-    border-style: none;
-    background-color: var(--divider);
-    margin: 4.3rem 0rem;
 }
 
 footer {
@@ -174,4 +168,8 @@ footer {
 
 .anchor:hover {
     color: var(--accent5);
+}
+
+.benefits, .specs, .how-it-works, .cta {
+    scroll-margin-top: 60px;
 }
