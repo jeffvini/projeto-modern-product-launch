@@ -47,4 +47,18 @@
     .hero .display {
         font-size: 7rem;
     }
+
+    .hero .hero-image {
+        width: 648px;
+        border-width: 12px;
+        border-radius: 26px;
+        background-image: url('../assets/images/tablet-screen.png');
+        background-size: contain;  
+        background-position: top;
+        
+    }
+
+    .hero .inner {
+        height: 350px;
+    } 
 }
