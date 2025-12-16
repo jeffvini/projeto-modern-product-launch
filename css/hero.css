@@ -22,19 +22,12 @@
 
 .hero .inner {
     display: flex;
+    position: relative;
     justify-content: center;
     background-color: var(--accent3);
     margin-top: 6.25rem;
     height: 362px;
     border-radius: 1.87rem;
-}
-
-.hero .inner img {
-    margin-top: -2.81rem;
-    width: 16rem;
-    height: 32.61rem;
-    border: solid 0.68rem black;
-    border-radius: 2.69rem;
 }
 
 @media (min-width: 768px) {
