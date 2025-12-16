@@ -33,6 +33,7 @@ header .logo {
 }
 
 header .menu-toggle {
+    display: block;
     margin: 0.19rem;
     width: 1.5rem;
     height: 1.5rem;
