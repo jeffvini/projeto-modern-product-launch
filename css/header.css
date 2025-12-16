@@ -87,7 +87,16 @@ header .separator {
 
     header .nav-menu {
         display: flex;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
         gap: 1.3rem;
+        padding: 1.3rem 1.5rem;
+        background: rgba(255, 255, 255, 0.15); 
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px); 
+        border-radius: 1.8rem;
+        border: none;
     }
 
     header .learn-more {
