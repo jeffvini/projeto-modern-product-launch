@@ -85,6 +85,11 @@ header .separator {
         align-items: center;
     }
 
+    header .nav-menu {
+        display: flex;
+        gap: 1.3rem;
+    }
+
     header .learn-more {
         margin: 0;
     }
