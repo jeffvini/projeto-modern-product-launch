@@ -81,6 +81,10 @@ header .separator {
         padding: 1.25rem 0;
     }
 
+    header .header-top {
+        align-items: center;
+    }
+    
     header .menu-toggle {
         display: none;
     }
