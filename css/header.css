@@ -84,7 +84,11 @@ header .separator {
     header .header-top {
         align-items: center;
     }
-    
+
+    header .learn-more {
+        margin: 0;
+    }
+
     header .menu-toggle {
         display: none;
     }
