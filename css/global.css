@@ -85,13 +85,6 @@ main {
     margin-top: 7.5em;
 }
 
-hr {
-    height: 1.1px;
-    border-style: none;
-    background-color: var(--divider);
-    margin: 4.3rem 0rem;
-}
-
 footer {
     grid-area: footer;
 }
