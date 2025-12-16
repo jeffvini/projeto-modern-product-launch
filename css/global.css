@@ -187,6 +187,10 @@ footer {
         "margin-left footer margin-right";
     }
 
+    main {
+        margin-top: 3.5rem;
+    }
+
     .benefits, .specs, .how-it-works, .cta {
         scroll-margin-top: 10px;
     }
