@@ -83,4 +83,8 @@ header .separator {
     header .menu-toggle {
         display: none;
     }
+
+    header .dropdown {
+        display: none;
+    }
 }
