@@ -67,11 +67,11 @@ html {
 body {
     display: grid;
     background-color: var(--background);
-    grid-template-columns:  3vw 1fr 3vw;
+    grid-template-columns:  4vw 1fr 4vw;
+    grid-template-rows: 1fr auto;
     grid-template-areas: 
         "margin-left main margin-right"
         "margin-left footer margin-right";
-    grid-template-rows: 1fr auto;
     min-height: 100dvh;
     font-family: var(--font-paragraph-link);
 }
