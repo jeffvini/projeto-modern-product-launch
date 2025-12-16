@@ -30,6 +30,19 @@
     border-radius: 1.87rem;
 }
 
+.hero .hero-image {
+    position: absolute;
+    top: -50px;
+    width: 259px;
+    height: 540px;
+    border: solid 11px black;
+    border-radius: 33px;
+    background-image: url('../assets/images/mobile-screen.png');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media (min-width: 768px) {
     .hero .display {
         font-size: 7rem;
