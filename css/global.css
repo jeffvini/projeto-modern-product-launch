@@ -178,4 +178,12 @@ footer {
     html {
         font-size: 16px;
     }
+
+    body {
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "margin-left header margin-right"
+        "margin-left main margin-right"
+        "margin-left footer margin-right";
+    }
 }
