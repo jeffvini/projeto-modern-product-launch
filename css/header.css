@@ -25,6 +25,14 @@ header .header-top {
     justify-content: space-between;
 }
 
+header .nav-menu {
+    display: none;
+}
+
+header .header-top > .learn-more {
+    display: none;
+}
+
 header .logo {
     font-size: 1.87rem;
     line-height: 1.2;
