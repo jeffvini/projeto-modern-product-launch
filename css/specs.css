@@ -37,8 +37,8 @@
     display: flex;
     overflow-x: auto;
     width: 90vw;
-    margin: 7rem 0;
-    padding: 0em 0.3rem 0 0.3rem;
+    margin: 6rem 0;
+    padding: 1rem 0.3rem 0.4rem;
 }
 
 .specs .platform {
