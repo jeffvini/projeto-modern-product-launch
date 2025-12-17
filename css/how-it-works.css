@@ -72,4 +72,8 @@
         margin: 0;
         margin-bottom: 4rem;
     }
+
+    .how-it-works .step {
+        flex: 1 1 14rem;
+    }
 }
