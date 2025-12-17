@@ -102,7 +102,7 @@
 
 @media (min-width: 768px) {
     .specs .platform {
-        flex: 0 1 300px;
+        flex: 1 1 300px;
     }
 
     .specs .spec {
