@@ -61,3 +61,10 @@
     border-radius: 30px;
     object-fit: cover;
 }
+
+@media (min-width: 768px) {
+    .how-it-works .section-intro {
+        display: flex;
+        justify-content: space-between;
+    }
+}
