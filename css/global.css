@@ -168,6 +168,7 @@ footer {
 
 .anchor:hover {
     color: var(--accent5);
+    transform: translateY(1px);
 }
 
 .benefits, .specs, .how-it-works, .cta {
