@@ -104,4 +104,8 @@
     .specs .platform {
         flex: 0 1 300px;
     }
+
+    .specs .spec {
+        padding: 2.2rem 0 2.2rem 1.4rem;
+    }
 }
