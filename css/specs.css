@@ -108,4 +108,8 @@
     .specs .spec {
         padding: 2.2rem 0 2.2rem 1.4rem;
     }
+
+    .specs .spec-text {
+        font-size: 0.8rem;
+    }
 }
