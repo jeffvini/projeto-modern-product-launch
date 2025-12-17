@@ -46,6 +46,10 @@
 }
 
 @media (min-width: 768px) {
+    .testimonial img {
+        height: 500px;
+    }
+    
     .testimonial .author-name {
         font-size: 0.8rem;
     }
