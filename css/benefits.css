@@ -63,6 +63,7 @@
         gap: 1.4rem;
     }
     .benefits .benefit-item {
-        max-width: 330px;
+        flex: 1 1 250px;
+        min-width: 0;
     }
 }
