@@ -67,4 +67,9 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .how-it-works .discover-more {
+        margin: 0;
+        margin-bottom: 4rem;
+    }
 }
