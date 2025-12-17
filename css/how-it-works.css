@@ -16,6 +16,7 @@
     font-weight: var(--heading1-weight);
     line-height: var(--line-height-heading1);
     letter-spacing: var(--letter-spacing-heading1);
+    width: max-content;
 }
 
 .how-it-works .steps {
