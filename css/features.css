@@ -48,3 +48,9 @@
     object-fit: cover;
     border-radius: 40px;
 }
+
+@media (min-width: 768px) {
+    .features img {
+        height: 744px;
+    }
+}
