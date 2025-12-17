@@ -48,7 +48,7 @@
 .specs .platforms > :first-child {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
     outline: 2px solid rgba(0, 0, 0, 0.08);
-    border-radius: 2rem;
+    border-radius: 1.5rem;
 }
 
 .specs .platform-name {
