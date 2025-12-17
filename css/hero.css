@@ -51,7 +51,7 @@
     .hero .hero-image {
         width: 648px;
         border-width: 12px;
-        border-radius: 26px;
+        border-radius: 20px;
         background-image: url('../assets/images/tablet-screen.png');
         background-size: contain;  
         background-position: top;
