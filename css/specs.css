@@ -97,6 +97,7 @@
     text-align: right;
     font-size: 1rem;
     font-weight: 400;
+    color: var(--accent4);
 }
 
 @media (min-width: 768px) {
