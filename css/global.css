@@ -193,6 +193,6 @@ footer {
     }
 
     .benefits, .specs, .how-it-works, .cta {
-        scroll-margin-top: 10px;
+        scroll-margin-top: 0px;
     }
 }
