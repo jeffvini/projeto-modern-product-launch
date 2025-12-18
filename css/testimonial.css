@@ -68,4 +68,11 @@
         width: 40%;
         height: 550px;
     }
+
+    .testimonial .testimonial-content {
+        padding-top: 8rem;
+        height: 550px;
+        margin: 0;
+        margin-left: 1.5rem;
+    }
 }
