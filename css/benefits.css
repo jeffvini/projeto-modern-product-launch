@@ -67,3 +67,9 @@
         min-width: 0;
     }
 }
+
+@media (min-width: 1200px) {
+    .benefits .benefit-illustration {
+        height: 630px;
+    }
+}
