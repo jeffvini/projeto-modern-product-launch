@@ -72,7 +72,11 @@
         border-width: 14px;
     }
 
-     .hero .inner {
+    .hero .inner {
         margin-top: 12rem;
+    }
+
+    .hero .display {
+        font-size: 8rem;
     }
 }
