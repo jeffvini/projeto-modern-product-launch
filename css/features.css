@@ -1,6 +1,6 @@
 .features {
     border-top: solid 1px var(--divider);
-    margin-top: 1rem;
+    margin-top: 4.5rem;
     padding-top: 4rem;
 }
 
@@ -47,4 +47,10 @@
     height: 385px;
     object-fit: cover;
     border-radius: 40px;
+}
+
+@media (min-width: 768px) {
+    .features img {
+        height: 744px;
+    }
 }

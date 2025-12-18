@@ -16,6 +16,7 @@
     font-weight: var(--heading1-weight);
     line-height: var(--line-height-heading1);
     letter-spacing: var(--letter-spacing-heading1);
+    width: max-content;
 }
 
 .how-it-works .steps {
@@ -59,4 +60,20 @@
     margin-top: 6rem;
     border-radius: 30px;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .how-it-works .section-intro {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .how-it-works .discover-more {
+        margin: 0;
+        margin-bottom: 4rem;
+    }
+
+    .how-it-works .step {
+        flex: 1 1 14rem;
+    }
 }

@@ -24,3 +24,9 @@
     margin: 2.5rem auto 5rem;
     width: 95%;
 }
+
+@media (min-width: 768px) {
+    .cta .learn-more {
+        width: 71%;
+    }
+}

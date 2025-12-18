@@ -13,7 +13,7 @@
 
 .testimonial .testimonial-content {
     border-top: solid 1px var(--divider);
-    margin: 2.6rem 0 6rem;
+    margin: 2.6rem 0 4rem;
     padding: 2.6rem 0.9rem 0 0.9rem;
 }
 
@@ -24,7 +24,7 @@
     line-height: var(--line-height-heading2);
     letter-spacing: var(--letter-spacing-heading2);
     color: var(--accent4);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .testimonial .author {
@@ -43,4 +43,18 @@
     font-size: var(--caption-size);
     font-weight: var(--caption-weight);
     color: var(--accent1);
+}
+
+@media (min-width: 768px) {
+    .testimonial img {
+        height: 500px;
+    }
+    
+    .testimonial .author-name {
+        font-size: 0.8rem;
+    }
+
+    .testimonial .author-position {
+        font-size: 0.6rem;
+    }
 }

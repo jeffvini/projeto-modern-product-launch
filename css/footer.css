@@ -27,3 +27,10 @@ footer .text-credits {
     font-size: var(--caption-size);
     font-weight: var(--caption-weight);
 }
+
+@media (min-width: 768px) {
+    footer .links {
+        display: flex;
+        column-gap: 1.7rem;
+    }
+}

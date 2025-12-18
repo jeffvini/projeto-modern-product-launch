@@ -168,8 +168,31 @@ footer {
 
 .anchor:hover {
     color: var(--accent5);
+    transform: translateY(1px);
 }
 
 .benefits, .specs, .how-it-works, .cta {
     scroll-margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "margin-left header margin-right"
+        "margin-left main margin-right"
+        "margin-left footer margin-right";
+    }
+
+    main {
+        margin-top: 3.5rem;
+    }
+
+    .benefits, .specs, .how-it-works, .cta {
+        scroll-margin-top: 10px;
+    }
 }

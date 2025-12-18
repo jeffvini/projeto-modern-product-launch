@@ -25,6 +25,14 @@ header .header-top {
     justify-content: space-between;
 }
 
+header .nav-menu {
+    display: none;
+}
+
+header .header-top > .learn-more {
+    display: none;
+}
+
 header .logo {
     font-size: 1.87rem;
     line-height: 1.2;
@@ -33,6 +41,7 @@ header .logo {
 }
 
 header .menu-toggle {
+    display: block;
     margin: 0.19rem;
     width: 1.5rem;
     height: 1.5rem;
@@ -70,4 +79,44 @@ header .separator {
     height: 1px;
     background-color: var(--divider);
     margin: 1.87rem 0rem;
+}
+
+@media (min-width: 768px) {
+    header {
+        position: static;
+        overflow-y: visible;
+        box-shadow: none;
+        padding: 1.25rem 0;
+    }
+
+    header .header-top {
+        align-items: center;
+    }
+
+    header .nav-menu {
+        display: flex;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 1.3rem;
+        padding: 1.3rem 1.5rem;
+        background: rgba(255, 255, 255, 0.15); 
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px); 
+        border-radius: 1.8rem;
+        border: none;
+    }
+
+    header .header-top > .learn-more {
+        display: flex;
+        margin: 0;
+    }
+
+    header .menu-toggle {
+        display: none;
+    }
+
+    header .dropdown {
+        display: none;
+    }
 }
