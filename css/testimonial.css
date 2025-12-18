@@ -63,4 +63,9 @@
     .testimonial {
         display: flex;
     }
+
+    .testimonial img {
+        width: 40%;
+        height: 550px;
+    }
 }
