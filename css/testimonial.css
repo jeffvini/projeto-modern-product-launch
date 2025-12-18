@@ -58,3 +58,9 @@
         font-size: 0.6rem;
     }
 }
+
+@media (min-width: 1200px) {
+    .testimonial {
+        display: flex;
+    }
+}
