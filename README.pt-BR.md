@@ -1,3 +1,6 @@
+🌎 Leia este README em inglês:
+- [English](README.md)
+
 # 🚀 Modern Product Launch – Area
 
 Este projeto é uma **landing page responsiva** desenvolvida como parte dos meus **estudos em Front-End**, marcando o **primeiro projeto que construí de forma realmente séria e estruturada**.
