@@ -59,4 +59,10 @@
     .features {
         display: flex;
     }
+
+    .features img {
+        width: 50%;
+        height: 711px;
+        margin-left: 4rem;
+    }
 }
