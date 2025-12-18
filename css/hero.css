@@ -70,6 +70,7 @@
         background-image: url('../assets/images/desktop-screen.png');
         background-size: cover;
         width: 869px;
+        border-width: 14px;
     }
 
      .hero .inner {
