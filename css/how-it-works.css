@@ -77,3 +77,9 @@
         flex: 1 1 14rem;
     }
 }
+
+@media (min-width: 1200px) {
+    .how-it-works .mountain-image {
+        height: 640px;
+    }
+}
