@@ -30,3 +30,9 @@
         width: 71%;
     }
 }
+
+@media (min-width: 1200px) {
+    .cta .learn-more {
+        width: 50%;
+    }
+}
