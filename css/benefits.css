@@ -1,6 +1,6 @@
 .benefits {
     border-top: solid 1px var(--divider);
-    margin-top: 4.5rem;
+    margin-top: 6rem;
     padding-top: 4.5rem;
 }
 .benefits p {
@@ -65,5 +65,11 @@
     .benefits .benefit-item {
         flex: 1 1 250px;
         min-width: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .benefits .benefit-illustration {
+        height: 630px;
     }
 }

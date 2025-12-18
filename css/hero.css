@@ -17,7 +17,6 @@
 .hero .wrapper {
     overflow-y: hidden;
     width: 100%;
-    max-width: 1300px;
 }
 
 .hero .inner {
@@ -61,4 +60,23 @@
     .hero .inner {
         height: 350px;
     } 
+}
+
+@media (min-width: 1200px) {
+    .hero .hero-image {
+        position: relative;
+        top: -120px;
+        background-image: url('../assets/images/desktop-screen.png');
+        background-size: cover;
+        width: 869px;
+        border-width: 14px;
+    }
+
+    .hero .inner {
+        margin-top: 12rem;
+    }
+
+    .hero .display {
+        font-size: 8rem;
+    }
 }

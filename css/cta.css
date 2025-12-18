@@ -1,7 +1,7 @@
 .cta {
     border-top: solid 1px var(--divider);
-    margin-top: 5rem;
-    padding-top: 5rem;
+    margin-top: 6rem;
+    padding-top: 4.5rem;
     text-align: center;
 }
 
@@ -28,5 +28,11 @@
 @media (min-width: 768px) {
     .cta .learn-more {
         width: 71%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cta .learn-more {
+        width: 50%;
     }
 }

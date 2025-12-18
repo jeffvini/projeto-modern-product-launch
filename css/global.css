@@ -193,6 +193,12 @@ footer {
     }
 
     .benefits, .specs, .how-it-works, .cta {
-        scroll-margin-top: 10px;
+        scroll-margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 17px;
     }
 }

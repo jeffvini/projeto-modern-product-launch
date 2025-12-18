@@ -1,7 +1,7 @@
 .how-it-works {
     border-top: solid 1px var(--divider);
-    margin-top: 5rem;
-    padding-top: 5rem;
+    margin-top: 6rem;
+    padding-top: 4.5rem;
 }
 
 .how-it-works .section-intro {
@@ -75,5 +75,11 @@
 
     .how-it-works .step {
         flex: 1 1 14rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .how-it-works .mountain-image {
+        height: 640px;
     }
 }

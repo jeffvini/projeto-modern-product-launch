@@ -1,6 +1,6 @@
 .testimonial {
     border-top: solid 1px var(--divider);
-    margin-top: 4rem;
+    margin-top: 6rem;
     padding-top: 4.5rem;
 }
 
@@ -56,5 +56,35 @@
 
     .testimonial .author-position {
         font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .testimonial {
+        display: flex;
+    }
+
+    .testimonial img {
+        width: 40%;
+        height: 550px;
+    }
+
+    .testimonial .testimonial-content {
+        padding-top: 8rem;
+        height: 550px;
+        margin: 0;
+        margin-left: 1.5rem;
+    }
+
+    .testimonial .testimonial-text {
+        font-size: 2.5rem;
+    }
+
+    .testimonial .author-name {
+        font-size: 0.9rem;
+    }
+
+    .testimonial .author-position {
+        font-size: 0.7rem;
     }
 }
